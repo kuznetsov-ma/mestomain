@@ -13,6 +13,13 @@
     overflow: hidden;*/
 }
 
+@media screen and (max-width: 900px) {
+    .profile__info {
+        margin-right: auto;
+        justify-content: center;
+    }
+  }
+
 @media screen and (max-width: 320px) {
     .profile__info {
         width: calc(100% - 2*19px);
@@ -20,7 +27,6 @@
         margin-right: auto;
         gap: 14px;
         align-items: center;
-        flex-direction: column;
         justify-content: center;
     }
   }
